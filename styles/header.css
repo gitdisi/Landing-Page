@@ -1,0 +1,112 @@
+/* Section Heading Background */
+
+.backgroundImg {
+    width: 144vw;
+    height: 100%;
+    filter: blur(6px);
+    filter: brightness(65%);
+
+    position: fixed;
+    top: 0;
+    left: -22vw;
+    right: 0;
+    z-index: 1;
+}
+
+/* Section Heading Header */
+
+.header__conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    
+    position: sticky;
+    width: 83vw;
+    margin: 6.25rem 7.8rem 17rem 7.8rem;
+    z-index: 2;
+}
+
+.header__conteiner__logo img {
+    width: 8.375rem;
+    height: 3rem;
+}
+
+.header__conteiner__login button {
+    border: solid 2px #FFFFFF;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 6px;
+    background: none;
+    cursor: pointer;
+
+
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1.25rem; 
+    line-height: 1.5125rem; 
+    letter-spacing: 0%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section Haeding Content */
+
+.header__main__conteiner {
+    position: relative;
+    z-index: 2;
+    margin-left: 7.25rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header__main__tittle {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 68px;
+    line-height: 74px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 1.625rem;
+}
+
+.header__main__tittle span {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 74px;
+    letter-spacing: 0%;
+
+}
+
+.header__main__subtittle {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.header__main__button button {
+    padding: 1rem 2rem 1rem 2rem ;
+    border-radius: 6px;
+    border: none;
+    background-color: #F49E1D;
+
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1.375rem;
+    line-height: 31.47px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 7.375rem;
+
+}

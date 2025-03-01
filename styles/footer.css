@@ -1,0 +1,38 @@
+.footer__conteiner {
+    z-index: 2;
+    background-color: #7A89CC;
+    width: 100%;
+    padding: 6.25rem 0;
+    
+
+    display: flex;
+    align-items: center;
+
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer__message {
+    margin-left: 6.25rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.footer__message__text span {
+    color: white;
+    font-family: Inter;
+    font-weight: 500px;
+    font-size: 1 rem;
+    line-height: 1.625rem;
+    letter-spacing: 0%;
+}
+
+.footer__message__logo img {
+    width: 8.375rem;
+    height: 3rem;
+}
+
