@@ -6,6 +6,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 5rem;
+    background: linear-gradient(to bottom, transparent 0%, transparent 20%,#FFFFFF 20%, #FFFFFF 100% );
 }
 
 /* Main Cards */
@@ -15,6 +16,8 @@
     flex-direction: row;
     gap: 4rem;
     justify-content: center;
+    background: linear-gradient(to bottom, transparent 0%, transparent 30%, #FFFFFF 30%, #FFFFFF 100%);
+
 }
 
 .main__card {
