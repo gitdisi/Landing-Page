@@ -65,7 +65,7 @@
     flex-direction: column;
 }
 
-.header__main__tittle {
+.header__main__title {
     font-family: Inter;
     font-weight: 700;
     font-style: italic;
@@ -76,7 +76,7 @@
     margin-bottom: 1.625rem;
 }
 
-.header__main__tittle span {
+.header__main__title span {
     font-family: Inter;
     font-weight: 400;
     font-size: 68px;
@@ -85,7 +85,7 @@
 
 }
 
-.header__main__subtittle {
+.header__main__subtitle {
     font-family: Inter;
     font-weight: 500;
     font-size: 20px;
@@ -107,6 +107,6 @@
     line-height: 31.47px;
     letter-spacing: 0%;
     color: #FFFFFF;
-    margin-bottom: 7.375rem;
+    margin-bottom: 3.375rem;
 
 }

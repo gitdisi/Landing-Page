@@ -1,6 +1,77 @@
-main {
+.main__conteiner {
     z-index: 2;
-    display: flex;
+    position: relative;
     
+    display: flex;
+    justify-content: center;
 }
 
+/* Main Cards */
+
+.main__cards__conteiner {
+    display: flex;
+    flex-direction: row;
+    gap: 6.8rem;
+
+}
+
+.main__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px;
+    border: solid 1px #D8E3EC;
+    background-color: #ECF1F5;
+    
+    padding: 4rem 1.5rem 4rem 1.5rem;
+}
+
+/* Main Cards Logos */
+
+.heart__logo {
+    color: #00637A;
+    width: 4.1rem;
+    height: 3.5rem;
+}
+
+.certificateion__logo {
+    color: #00637A;
+    width: 5rem;
+    height: 4.25rem;
+}
+
+.clock__logo {
+    color: #00637A;
+    width: 4.125rem;
+    height: 4rem;
+}
+
+.archive__logo {
+    color: #00637A;
+    width: 4.5rem;
+    height: 4rem;
+}
+
+/* Main Cards Titles & Subtitles */
+
+.main__card__title {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #00637A;
+}
+
+.main__card__description {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #737E8B;
+    text-align: center;
+}
