@@ -220,6 +220,13 @@
     text-align: center;
     border-radius: 6px;
     cursor: pointer;
+
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+    color: #00637A;
 }
 
 .main__section__img img {
