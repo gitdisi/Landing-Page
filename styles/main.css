@@ -175,6 +175,7 @@
     justify-content: center;
     flex-direction: row;
     gap: 4rem;
+    margin-bottom: 4.7rem;
 }
 
 .main__section2__text {
