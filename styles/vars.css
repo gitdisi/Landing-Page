@@ -18,7 +18,6 @@ body::before {
     z-index: -1;
   }
   
-
   :root {
     --color-one: #FFFFFF;
     --color-two: #ECF1F5;
@@ -29,4 +28,3 @@ body::before {
     --color-seven: #7A89CC;
     --color-eigth: #00B2BA;
   }
-  

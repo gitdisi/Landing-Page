@@ -1,0 +1,9 @@
+@media (max-width: 480px) {
+    .header__conteiner {
+        margin: 10px 0 auto 0;
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
