@@ -1,8 +1,60 @@
+/* Mobile */
+
 @media (max-width: 480px) {
+    /* Header */
     .header__conteiner {
-        margin: 10px 0 auto 0;
+        margin: 2.5vh 0 auto 0;
+    }
+
+    .header__conteiner__content {
+        width: 95vw;
+    }
+
+    .header__conteiner__logo img {
+        width: 5.375rem;
+    }
+
+    .header__conteiner__login button {
+        border: solid 2px var(--color-one);
+        padding: 0.3rem 0.6rem;
+        font-size: 1rem;
+    }
+    /* first line end */
+
+    .header__main__conteiner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__main__title {
+        font-size: 2.25rem;
+        line-height: 37px;
+    }
+
+    .header__main__title span {
+        font-size: 2.25rem;
+        line-height: 37px;
+    }
+
+    .header__main__subtitle {
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+
+    .main__cards__conteiner {
+        flex-direction: column;
+    }
+
+    .main__section1__container {
+        flex-direction: column;
+    }
+
+    .main__section2__container {
+        flex-direction: column;
     }
 }
+
+/* Tablet */
 
 @media (max-width: 768px) {
     
