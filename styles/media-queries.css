@@ -196,7 +196,7 @@
     /* end footer */
 
     body::before {
-        background-position: right 500px;
+        background-position: 430px 500px;
     }
 }
 
