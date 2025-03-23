@@ -340,5 +340,9 @@
     }
 
     /* end footer */
+
+    body::before {
+        background-position: -110px 650px;
+    }
     
 }
