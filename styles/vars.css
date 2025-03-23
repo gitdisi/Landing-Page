@@ -6,11 +6,12 @@ html, body {
 body::before {
     content: "";
     position: fixed;
-    filter: blur(6px) brightness(65%);
+    filter: brightness(65%) blur(6px);
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    transform: scale(1.05);
     background-image: url("../styles/imgs/christy-jacob-Mh-R3YrrHT8-unsplash\ 1.png");
     background-attachment: fixed;
     background-size: cover;
