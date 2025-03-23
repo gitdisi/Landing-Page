@@ -173,7 +173,7 @@
         text-align: center;
     }
 
-    /* Footer */
+    /* start footer */
 
     .footer__conteiner {
         padding: 2rem 0;
@@ -192,6 +192,11 @@
 
     .footer__message__logo {
         text-align: center;
+    }
+    /* end footer */
+
+    body::before {
+        background-position: right 500px;
     }
 }
 
