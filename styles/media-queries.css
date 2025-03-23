@@ -202,6 +202,143 @@
 
 /* Tablet */
 
-@media (max-width: 768px) {
+@media all and (min-width: 601px) and (max-width: 769px) {
+
+    .media__break {
+        display: none;
+    }
+
+    /* start header */
+    .header__conteiner {
+        margin: 2rem 0 auto 0;
+    }
+
+    .header__main__conteiner {
+        margin-left: 8.5vw;
+    }
+
+    .header__main__title {
+        font-size: 4rem;
+    }
+
+    .header__main__title span {
+        font-size: 4rem;
+    }
+    /* end header */
+
+    /* start cards */
+    .main__cards__conteiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+        padding: 2vw;
+        background: var(--color-one);
+        border-radius: 12px 12px 0 0;
+    }
+
+    .main__card {
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+
+    .main__card__title {
+        line-height: 16px;
+        order: 1;
+        flex-basis: 100%;
+
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .main__card img {
+        order: 2;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: auto;
+
+        margin-right: 10px;
+    }
+
+    .main__card__description {
+        order: 3;
+        flex: 1;
+        
+        line-height: 1.2rem;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    /* end cards */
+
+    /* start main section1 */
+    .main__section1__container {
+        padding: 0;
+        margin: 0 2.5vw 0 2.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .main__section1__img {
+        margin: 40px 2.5vw 0 0;
+    }
+
+    .main__section1__img img {
+        width: 10rem;
+        height: 16rem;
+    }
+
+    .main__section1__text__button {
+        text-align: left;
+    }
+
+    /* end main section1 */
+
+    /* start main section2 */
+    .main__section2__container {
+        width: 95vw;
+        padding: 0 2.5vw;
+        margin-bottom: 2rem;
+    }
+
+    .main__section2__title {
+        text-align: center;
+    }
+
+    .main__section2__description {
+        text-align: center;
+    }
+
+    .main__section2__button {
+        text-align: center;
+    }
+
+    .main__section__img, .main__section__img img {
+        display: none;
+    }
+    /* end main section2 */
+
+    /* start footer */
+
+    .footer__conteiner {
+        padding: 3rem 0;
+    }
+
+    .footer__message {
+        width: 95vw;
+        padding: 0 2.5vw;
+        margin: 0;
+        text-align: center;
+        gap: 1rem;
+        flex-direction: row;
+    }
+
+    /* end footer */
     
 }
