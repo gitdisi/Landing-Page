@@ -151,14 +151,18 @@
     color: var(--color-five);
 }
 
-.main__section1__text__button button {
+.main__section1__text__button a {
     padding: 0.75rem 1.5rem 0.75rem 1.5rem;
     border-radius: 6px;
     background-color: var(--color-eigth);
     border: none;
     cursor: pointer;
+    text-decoration: none;
 
     box-shadow: 0px 8px 18px 0px #D5D1FF26;
+
+    opacity: 1;
+    transition: opacity 300ms ease-out;
 
     font-family: Inter;
     font-weight: 500;
@@ -214,7 +218,7 @@
     color: var(--color-five);
 }
 
-.main__section2__button button {
+.main__section2__button a {
     border: solid 2px #00B2BA;
     box-shadow: 0px 8px 18px 0px #D5D1FF26;
     background: none;
@@ -222,6 +226,10 @@
     text-align: center;
     border-radius: 6px;
     cursor: pointer;
+    text-decoration: none;
+
+    opacity: 1;
+    transition: opacity 300ms ease-out;
 
     font-family: Inter;
     font-weight: 500;

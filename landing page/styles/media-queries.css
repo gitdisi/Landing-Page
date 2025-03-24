@@ -20,7 +20,7 @@
         width: 6.375rem;
     }
 
-    .header__conteiner__login button {
+    .header__conteiner__login a {
         border: solid 2px var(--color-one);
         padding: 0.4rem 0.8rem;
         font-size: 1.25rem;

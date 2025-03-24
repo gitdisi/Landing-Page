@@ -9,7 +9,7 @@ header {
 .header__conteiner {
     display: flex;
     justify-content: center;
-    margin: 6.25rem 0 auto 0;
+    margin: 3.25rem 0 auto 0;
 }
 
 .header__conteiner__content {
@@ -29,11 +29,10 @@ header {
     max-width: 100%;
 }
 
-.header__conteiner__login button {
+.header__conteiner__login a {
     border: solid 2px var(--color-one);
     padding: 0.6rem 1.2rem;
     border-radius: 6px;
-    background: none;
     cursor: pointer;
 
     color: var(--color-one);
@@ -42,11 +41,20 @@ header {
     font-size: 1.25rem;
     line-height: 1.5125rem; 
     letter-spacing: 0%;
+    text-decoration: none;
+
+    background: transparent;
+    opacity: 1;
+    transition: opacity 300ms ease-out;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.animation {
+    opacity: 0 !important;
+  }
 
 /* Section Haeding Content */
 
@@ -88,11 +96,20 @@ header {
     margin-bottom: 2rem;
 }
 
-.header__main__button button {
+.header__main__button {
+    margin-bottom: 3.375rem;
+}
+
+.header__main__button a {
     padding: 1rem 2rem 1rem 2rem;
     border-radius: 6px;
     border: none;
     background-color: var(--color-six);
+    text-decoration: none;
+    cursor: pointer;
+
+    opacity: 1;
+    transition: opacity 300ms ease-out;
 
     font-family: Inter;
     font-weight: 500;
@@ -100,5 +117,4 @@ header {
     line-height: 2rem;
     letter-spacing: 0%;
     color: var(--color-one);
-    margin-bottom: 3.375rem;
 }
