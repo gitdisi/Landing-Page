@@ -101,6 +101,7 @@ footer button {
     border: none;
     background-color: var(--color-four);
     width: 26.25rem;
+    cursor: pointer;
 }
 
 footer div {
