@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <!-- links -->
+    <link rel="stylesheet" href="styles/sign-up/vars.css">
+    <link rel="stylesheet" href="styles/sign-up/layout.css">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container__central">
+        <div class="container__layout">
+            <header>
+                <div>
+                    <h2 class="header__title">Work for a cause!</h2>
+                    <h4 class="header__subtitle">Create your credentials to access our hub!</h4>
+                </div>
+            </header>
+
+            <main>
+                <section>
+                    <h3 class="main__title">
+                        Who are you?
+                    </h3>
+                    <div class="main__container__credentials">
+                        <label for="Name" class="main__label">Name</label>
+                        <input type="text" placeholder="Gabriel Kortschinski" class="main__input">
+                    </div>
+                    <div class="main__container__credentials">
+                        <label for="Email" class="main__label">Email</label>
+                        <input type="text" placeholder="contact@company.com" class="main__input">
+                    </div>
+                </section>
+                <section>
+                        <h3 class="main__title">
+                            Create a password
+                        </h3>
+                        <div class="main__container__credentials">
+                            <label for="Password" class="main__label">Password</label>
+                            <input type="text" placeholder="••••••••••" class="main__input">
+                        </div>
+                        
+                        <div class="main__container__credentials">
+                            <label for="Repeat Password" class="main__label">Repeat the password</label>
+                            <input type="password" placeholder="••••••••••" class="main__input">
+                        </div>
+                </section>
+            </main>
+
+            <footer>
+                    <button class="footer__button">
+                        Sign up
+                    </button>
+                <div>
+                    Already have an account? <a href="../login/index.html">Login here</a>
+                </div>
+            </footer>
+        </div>
+
+        <div class="background">
+            <img src="/styles/imgs/LogoWFC.png" alt="Company Logo">
+        </div>
+    </div>
+</body>
+</html>
