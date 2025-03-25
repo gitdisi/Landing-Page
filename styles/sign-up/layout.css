@@ -146,8 +146,9 @@ body {
 
 .container__layout {
     position: relative;
-    padding: 0 10rem;
+    padding: 0 7rem;
     height: 100vh;
+    width: 35vw;
     background-color: var(--color-one);
     
     display: flex;
@@ -156,38 +157,36 @@ body {
     align-items: center;
 }
 
-/* .background::before {
-        content: "";
-        position: fixed;
-        filter: brightness(65%) blur(6px);
-        top: 0;
-        transform: scale(1.05);
-        background-image: url("../styles/imgs/background-login.jpg");
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        z-index: -1;
-} */
-
 .background {
+    position: relative;
+    z-index: -1;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
     flex: 1;
+
+    width: auto;
     height: 100vh;
-    transform: scale(1);
+
     background-image: url("/styles/imgs/background-login.jpg");
-    background-attachment: fixed;
-    background-size: auto 100vh;
-    background-position: center;
-    z-index: -1;
-    filter: brightness(65%);
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #081520; /* Cor base sem transparência */
+    opacity: 0.65; /* 65% de opacidade */
+    z-index: 1;
 }
 
 .background img {
     filter: none;
-    width: 26.25rem;
-    height: 10rem;
+    width: 35vw;
+    height: auto;
+    filter: none !important;
 }
 /* end general */

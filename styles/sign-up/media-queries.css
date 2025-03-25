@@ -1,0 +1,44 @@
+/* Mobile */
+@media all and (max-width: 600px) {
+    .background {
+        display: none;
+    }
+    .container__layout {
+        padding: 5vh 2.5vw;
+        width: 95vw;
+    }
+
+    .main__input {
+        width: 90vw;
+    }
+
+    footer button {
+        text-align: center;
+        width: 90vw;
+    }
+
+    footer div {
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    main {
+        margin: 2.25rem 0;
+    }
+}
+
+/* Tablet */
+@media all and (min-width: 601px) and (max-width:1000px) {
+    .background {
+        display: none;
+    }
+    .container__layout {
+        padding: 5vh 0;
+        width: 95vw;
+    }
+
+    .container__central {
+        justify-content: center;
+    }
+}
+
