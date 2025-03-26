@@ -14,7 +14,7 @@ body, html {
     width: auto;
     bottom: 0;
     height: 100vh;
-    background-image: url("/styles/imgs/background-login.jpg");
+    background-image: url("../imgs/background-login.jpg");
 }
 
 .background::before {
