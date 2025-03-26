@@ -4,8 +4,10 @@
         display: none;
     }
     .container__layout {
-        padding: 5vh 2.5vw;
+        padding: 5vh 2.5vw 0 2.5vw;
         width: 95vw;
+        align-items: normal;
+        justify-content: normal;
     }
 
     main div input {
