@@ -12,18 +12,9 @@
         width: 90vw;
     }
 
-    footer {
-        gap: 1.5rem;
-    }
-
     footer button {
         text-align: center;
         width: 90vw;
-    }
-
-    footer div {
-        flex-direction: column;
-        gap: 1px;
     }
 
     main {
