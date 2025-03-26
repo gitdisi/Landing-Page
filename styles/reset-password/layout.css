@@ -17,18 +17,6 @@ body, html {
     background-image: url("/styles/imgs/background-login.jpg");
 }
 
-.background {
-    position: relative;
-    z-index: -1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    width: auto;
-    height: 100vh;
-    background-image: url("/styles/imgs/background-login.jpg");
-}
-
 .background::before {
     content: "";
     position: absolute;
