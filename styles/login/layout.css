@@ -1,5 +1,91 @@
+/* start general */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.background {
+    position: relative;
+    z-index: -1;
+    flex: 1;
+    width: auto;
+    bottom: 0;
+    height: 100vh;
+    background-image: url("/styles/imgs/background-login.jpg");
+}
+
+.background {
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: auto;
+    height: 100vh;
+    background-image: url("/styles/imgs/background-login.jpg");
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #081520;
+    opacity: 0.65;
+    z-index: 1;
+}
+
+.container__central {
+    z-index: 2;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-family: Inter;
+}
+
+.container__layout {
+    position: relative;
+    height: 100vh;
+    width: 36vw;
+    padding: 0 7rem;
+    background-color: var(--color-one);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* end general */
+
 /* start header */
-header .header__title {
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2.625rem;
+}
+
+header img {
+    background-color: var(--color-seven);
+    padding: 2px;
+    border-radius: 12px;
+    display: flex;
+    width: 12rem;
+    height: auto;
+    margin-bottom: 3.8rem;
+}
+header h2 {
     font-family: Inter;
     font-weight: 700;
     font-size: 28px;
@@ -10,7 +96,7 @@ header .header__title {
     margin: 0 0 0.75rem 0;
 }
 
-header .header__subtitle {
+header h4 {
     font-family: Inter;
     font-weight: 400;
     font-size: 18px;
@@ -26,36 +112,34 @@ header .header__subtitle {
 main {
     display: flex;
     flex-direction: column;
-    margin: 2.625rem 0;
-    gap: 2rem;
-}
-
-main section {
-    display: flex;
-    flex-direction: column;
     gap: 0.75rem;
+    margin-bottom: 2.625rem;
 }
 
-main .main__title {
+span {
+    text-align: right;
+}
+
+span a {
     font-family: Inter;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     letter-spacing: 0%;
-    color: var(--color-five); /* antigo: var(--color-three) */
-    margin: 0;
+    color: var(--color-nine);
 }
 
-.main__container__credentials {
+main div {
     display: flex;
     flex-direction: column;
     padding: 10px;
     border-radius: 8px;
     background-color: var(--color-two);
     gap: 1px;
+    text-align: left;
 }
 
-.main__container__credentials .main__label {
+main div label {
     font-family: Inter;
     font-weight: 500;
     font-size: 14px;
@@ -64,7 +148,7 @@ main .main__title {
     color: var(--color-nine);
 }
 
-.main__input {
+main div input {
     font-family: Inter;
     font-weight: 400;
     font-size: 18px;
@@ -77,9 +161,10 @@ main .main__title {
     border: none;
 }
 
-.main__input:focus {
+main div input:focus {
     outline: none;
 }
+
 /* end main */
 
 /* start footer */
@@ -119,67 +204,3 @@ footer div a {
     color: var(--color-nine);
 }
 /* end footer */
-
-/* start general */
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-}
-
-.container__central {
-    z-index: 2;
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    font-family: Inter;
-}
-
-.container__layout {
-    position: relative;
-    padding: 0 7rem;
-    height: 100vh;
-    width: 35vw;
-    background-color: var(--color-one);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.background {
-    position: relative;
-    z-index: -1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    width: auto;
-    height: 100vh;
-    background-image: url("/styles/imgs/background-login.jpg");
-}
-
-.background::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #081520;
-    opacity: 0.65;
-    z-index: 1;
-}
-
-.background img {
-    filter: none;
-    width: 35vw;
-    height: auto;
-    filter: none !important;
-    display: block;
-}
-/* end general */
