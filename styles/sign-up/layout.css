@@ -160,7 +160,7 @@ body {
     flex: 1;
     width: auto;
     height: 100vh;
-    background-image: url("/styles/imgs/background-login.jpg");
+    background-image: url("../imgs/background-login.jpg");
 }
 
 .background::before {

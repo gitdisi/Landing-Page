@@ -77,7 +77,7 @@ header {
 }
 
 header img {
-    background-color: #0A2472;
+    background-color: var(--color-seven);
     padding: 2px;
     border-radius: 12px;
     display: flex;
